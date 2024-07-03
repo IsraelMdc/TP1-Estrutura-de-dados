@@ -28,19 +28,24 @@ void destroy_patient(struct Patient *patient)
 
 };
 
+// Retorna a identificação única do paciente.
 int get_patient_id(struct Patient* patient)
 {
 
 };
 
+
+// Retorna o nome do paciente.
 const char get_patient_name(struct Patient* patient)
 {
 
 };
 
+// Retorna a data de nascimento do paciente
 struct tm* get_patient_birthdate(struct Patient patient)
 {
 
-}
+};
+
 
 
