@@ -1,7 +1,7 @@
 #ifdef _PATIENT_H
 #define _PATIENT_H
 
-typedef struct  Patient;
+typedef struct  patient Patient; 
 
 void destroy_patient(struct Patient *patient);
 

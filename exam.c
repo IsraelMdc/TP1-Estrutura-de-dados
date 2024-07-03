@@ -1,13 +1,15 @@
+#include "exam.h" 
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <assert.h>
 
-typedef struct {
+struct exam {
     int id;
     int patient_id;
     int rx_id;
     struct tm *time;
-} Exam;
+}Exam; 
 
 Exam* create_exam(int id, int patient_id, int rx_id, struct tm *time) {
     Exam *exam = (Exam*)malloc(sizeof(Exam));

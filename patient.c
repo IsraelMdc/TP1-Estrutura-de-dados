@@ -2,15 +2,17 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
+#include "patient.h"
 
-typedef struct Patient
+
+struct patient  // Definição da estrutura do paciente 
 {
     int id;
     char* name;
     struct tm* birthdate;
     struct tm* arrival;
     
-} Patient;
+};
 
 struct Patient* createPatient(int id, const char* name, struct tm* birthdate, struct tm* arrival)
 {

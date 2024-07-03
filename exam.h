@@ -1,7 +1,7 @@
 #ifdef EXAM_H
 #define EXAM_H
 
-typedef struct  Exam;
+typedef struct exam Exam;
 
 
 
