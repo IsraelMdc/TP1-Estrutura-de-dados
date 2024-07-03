@@ -1,5 +1,5 @@
-#ifdef PATIENT_H
-#define PATIENT_H
+#ifdef _PATIENT_H
+#define _PATIENT_H
 
 typedef struct  Patient;
 
@@ -10,6 +10,5 @@ int get_patient_id(struct Patient* patient);
 const char get_patient_name(struct Patient* patient);
 
 struct tm* get_patient_birthdate(struct Patient patient);
-
 
 #endif // PATIENT_H
