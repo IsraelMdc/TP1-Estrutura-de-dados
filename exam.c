@@ -34,8 +34,8 @@ int get_exam_patient_id(Exam *exam) {
     return exam->patient_id;
 };
 
-int get_exam_rx_id(Exam exam) {
-    return exam.rx_id;
+int get_exam_rx_id(Exam *exam) {
+    return exam->rx_id;
 };
 
 struct tm* get_exam_time(Exam *exam) {
