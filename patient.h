@@ -11,7 +11,7 @@ void destroy_patient(Patient *patient);
 
 int get_patient_id(Patient* patient);
 
-const char get_patient_name(Patient* patient);
+const char* get_patient_name(Patient* patient);
 
 struct tm* get_patient_birthdate(Patient* patient);
 

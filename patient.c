@@ -9,8 +9,8 @@ struct patient
 {
     int id;
     char* name;
-    struct tm* birthdate;
-    struct tm* arrival;
+    struct tm *birthdate;
+    struct tm *arrival;
     
 };
 

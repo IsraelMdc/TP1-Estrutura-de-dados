@@ -15,8 +15,12 @@ int main()
     birthdate.tm_mon = 5; // Junho (0-indexed)
     birthdate.tm_mday = 15; // Dia 15
 
+    struct tm arrival = {0};
+    arrival.tm_hour = 10;
+    arrival.tm_min = 30;
+
     // Criando um paciente
-    Patient *patient = create_patient(1, "João Silva", &birthdate);
+    Patient *patient = create_Patient(1, "João Silva", &birthdate, &arrival);
 
     // Imprimindo informações do paciente criado
     printf("Paciente criado:\n");
@@ -38,7 +42,7 @@ int main()
     // Imprimindo informações do exame criado
     printf("\nExame criado:\n");
     printf("ID: %d\n", get_exam_id(exam));
-    printf("ID do Paciente: %d\n", get_exam_pacient_id(exam));
+    printf("ID do Paciente: %d\n", get_exam_patient_id(exam));
     printf("ID do Aparelho de Raio-X: %d\n", get_exam_rx_id(exam));
     printf("Data e Hora do Exame: %s\n", asctime(get_exam_time(exam)));
 
