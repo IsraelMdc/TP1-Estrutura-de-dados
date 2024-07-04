@@ -1,14 +1,18 @@
-#ifdef _PATIENT_H
-#define _PATIENT_H
+#ifndef PATIENT_H
+#define PATIENT_H
 
-typedef struct  patient Patient; 
 
-void destroy_patient(struct Patient *patient);
+//typedef for the patient struct in the h file
+typedef struct patient Patient;
 
-int get_patient_id(struct Patient* patient);
+struct Patient* createPatient(int id, const char* name, struct tm* birthdate, struct tm* arrival);
 
-const char get_patient_name(struct Patient* patient);
+void destroy_patient(Patient *patient);
 
-struct tm* get_patient_birthdate(struct Patient patient);
+int get_patient_id(Patient* patient);
 
-#endif // PATIENT_H
+const char get_patient_name(Patient* patient);
+
+struct tm* get_patient_birthdate(Patient patient);
+
+#endif // PATIENT_HS

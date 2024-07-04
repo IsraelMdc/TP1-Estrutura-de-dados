@@ -1,9 +1,7 @@
-#ifdef EXAM_H
+#ifndef EXAM_H
 #define EXAM_H
 
 typedef struct exam Exam;
-
-
 
 Exam* create_exam(int id, int patient_id, int rx_id, struct tm *time);
 

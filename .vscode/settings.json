@@ -1,9 +1,8 @@
 {
     "files.associations": {
-        "*.embeddedhtml": "html",
-        "exam.h": "c",
+        "stdio.h": "c",
         "patient.h": "c",
-        "stdlib.h": "c",
-        "assert.h": "c"
+        "time.h": "c",
+        "stdlib.h": "c"
     }
 }

@@ -1,15 +1,15 @@
-#include "exam.h" 
+#include "exam.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <assert.h>
 
 struct exam {
     int id;
     int patient_id;
     int rx_id;
     struct tm *time;
-}Exam; 
+
+};
 
 Exam* create_exam(int id, int patient_id, int rx_id, struct tm *time) {
     Exam *exam = (Exam*)malloc(sizeof(Exam));
@@ -20,24 +20,24 @@ Exam* create_exam(int id, int patient_id, int rx_id, struct tm *time) {
         exam->time = time;
     }
     return exam;
-}
+};
 
 void destroy_exam(Exam *exam) {
     free(exam);
-}
+};
 
 int get_exam_id(Exam *exam) {
     return exam->id;
-}
+};
 
 int get_exam_patient_id(Exam *exam) {
     return exam->patient_id;
-}
+};
 
 int get_exam_rx_id(Exam exam) {
     return exam.rx_id;
-}
+};
 
 struct tm* get_exam_time(Exam *exam) {
     return exam->time;
-}
+};
