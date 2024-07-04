@@ -5,7 +5,7 @@
 //typedef for the patient struct in the h file
 typedef struct patient Patient;
 
-struct Patient* createPatient(int id, const char* name, struct tm* birthdate, struct tm* arrival);
+struct Patient* create_Patient(int id, const char* name, struct tm* birthdate, struct tm* arrival);
 
 void destroy_patient(Patient *patient);
 
