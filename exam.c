@@ -35,10 +35,7 @@ Exam* create_exam(int id, int patient_id, int rx_id, struct tm *time) {
 void destroy_exam(Exam *exam) {
     // Verifica se o ponteiro nao e nulo
     if(exam != NULL){
-        // Liberacao da memoria alocada para o exame
-        free(exam->id);
-        free(exam->patient_id);
-        free(exam->rx_id);              
+        // Liberacao da memoria alocada para o exame  
         free(exam);
     }
     
