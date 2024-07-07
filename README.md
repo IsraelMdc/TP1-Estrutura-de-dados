@@ -1,17 +1,11 @@
 # Projeto de Gerenciamento de Pacientes e Exames
 
-Este projeto consiste na criação de um sistema para gerenciamento de pacientes e exames. Ele fornece uma estrutura básica para criação, manipulação e destruição de registros de pacientes e exames, utilizando estruturas de dados definidas em C.
+Este projeto consiste wm simular o processo de realização de exames de raio-X de tórax em um hospital, com ênfase na organização da fila para laudo médico. Por enquanto foram apenas implementados dois tipos abstratos de dados (TADs): Patient e
+Exam Esses TADs serão utilizados para modelar os pacientes que chegam ao hospital e os exames de raio-X.
 
 ## Estrutura do Projeto
 
-O projeto é composto pelos seguintes arquivos:
-
-- `patient.h`: Arquivo de cabeçalho que define a estrutura e funções relacionadas aos pacientes.
-- `patient.c`: Implementação das funções relacionadas aos pacientes.
-- `exam.h`: Arquivo de cabeçalho que define a estrutura e funções relacionadas aos exames.
-- `exam.c`: Implementação das funções relacionadas aos exames.
-
-### Arquivos
+O projeto contem os seguintes arquivos:
 
 - **patient.h**
   - Definição da estrutura `Patient`.
@@ -67,5 +61,5 @@ A estrutura `Exam` representa um exame e contém os seguintes campos:
 
 Para compilar e executar o projeto, siga os passos abaixo:
 
-1. Compile os arquivos `patient.c` e `exam.c` junto com seu arquivo principal (por exemplo, `main.c`)
+1. Compile os arquivos `patient.c` e `exam.c` junto com seu arquivo principal(por exemplo, `main.c`)
 2. Execute o arquivo Makefile usando o comando "make" em linux ou "mingw32-make" em windows.
