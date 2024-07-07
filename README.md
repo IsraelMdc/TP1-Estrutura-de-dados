@@ -40,7 +40,7 @@ A estrutura `Exam` representa um exame e contém os seguintes campos:
 
 - `int id`: Identificador único do exame.
 - `int patient_id`: Identificador do paciente associado ao exame.
-- `int rx_id`: Identificador da prescrição/receita associada ao exame.
+- `int rx_id`: Identificador do aparelho de raio-x associado ao exame
 - `struct tm* time`: Ponteiro para a data e hora do exame.
 
 ## Funcionalidades
@@ -55,7 +55,7 @@ A estrutura `Exam` representa um exame e contém os seguintes campos:
 
 - **Criar um novo exame**: A função `create_exam` permite a criação de um novo exame.
 - **Destruir um exame**: A função `destroy_exam` libera a memória alocada para um exame.
-- **Obter informações do exame**: As funções `get_exam_id`, `get_exam_patient_id`, `get_exam_rx_id` e `get_exam_time` permitem obter o ID, ID do paciente, ID da prescrição e data/hora do exame, respectivamente.
+- **Obter informações do exame**: As funções `get_exam_id`, `get_exam_patient_id`, `get_exam_rx_id` e `get_exam_time` permitem obter o ID do exame, ID do paciente, ID do aparelho de raio-x e data/hora do exame, respectivamente.
 
 ## Como Executar e Utilizar o Projeto
 
