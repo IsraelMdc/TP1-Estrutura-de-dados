@@ -22,6 +22,10 @@ O projeto contem os seguintes arquivos:
 - **exam.c**
   - Implementação da estrutura `Exam`.
   - Implementação das funções para criar, destruir e obter informações de um exame.
+    
+- **Makefile**
+  - Arquivo para execução do projeto.
+  
 
 ## Principais TADs (Tipos Abstratos de Dados)
 
@@ -59,5 +63,5 @@ A estrutura `Exam` representa um exame e contém os seguintes campos:
 
 Para compilar e executar o projeto, siga os passos abaixo:
 
-1. Compile os arquivos `patient.c` e `exam.c` junto com seu arquivo principal(por exemplo, `main.c`)
+1. Crie um arquivo "main.c" com os dados necessários para a criação de um paciente e um exame associado ao mesmo.
 2. Execute o arquivo Makefile usando o comando "make" em linux ou "mingw32-make" em windows.
