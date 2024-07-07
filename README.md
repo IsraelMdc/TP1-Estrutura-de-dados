@@ -25,7 +25,7 @@ O projeto contem os seguintes arquivos:
 
 ## Principais TADs (Tipos Abstratos de Dados)
 
-### Estrutura `Patient`
+### `Patient`
 
 A estrutura `Patient` representa um paciente e contém os seguintes campos:
 
@@ -34,7 +34,13 @@ A estrutura `Patient` representa um paciente e contém os seguintes campos:
 - `struct tm* birthdate`: Ponteiro para a data de nascimento do paciente.
 - `struct tm* arrival`: Ponteiro para a data de chegada do paciente.
 
-### Estrutura `Exam`
+#### Funcionalidades
+
+- **Criar um novo paciente**: A função `create_Patient` permite a criação de um novo paciente.
+- **Destruir um paciente**: A função `destroy_patient` libera a memória alocada para um paciente.
+- **Obter informações do paciente**: As funções `get_patient_id`, `get_patient_name` e `get_patient_birthdate` permitem obter o ID, nome e data de nascimento do paciente, respectivamente.
+  
+### `Exam`
 
 A estrutura `Exam` representa um exame e contém os seguintes campos:
 
@@ -43,15 +49,7 @@ A estrutura `Exam` representa um exame e contém os seguintes campos:
 - `int rx_id`: Identificador do aparelho de raio-x associado ao exame
 - `struct tm* time`: Ponteiro para a data e hora do exame.
 
-## Funcionalidades
-
-### Pacientes
-
-- **Criar um novo paciente**: A função `create_Patient` permite a criação de um novo paciente.
-- **Destruir um paciente**: A função `destroy_patient` libera a memória alocada para um paciente.
-- **Obter informações do paciente**: As funções `get_patient_id`, `get_patient_name` e `get_patient_birthdate` permitem obter o ID, nome e data de nascimento do paciente, respectivamente.
-
-### Exames
+#### Funcionalidades
 
 - **Criar um novo exame**: A função `create_exam` permite a criação de um novo exame.
 - **Destruir um exame**: A função `destroy_exam` libera a memória alocada para um exame.
