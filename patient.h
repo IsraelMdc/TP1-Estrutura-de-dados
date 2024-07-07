@@ -1,5 +1,7 @@
-#ifndef PATIENT_H // Verifica se PATIENT_H nao esta definido
-#define PATIENT_H // Define PATIENT_H para evitar inclusoes multiplas
+// Verifica se PATIENT_H nao esta definido
+#ifndef PATIENT_H 
+// Define PATIENT_H para evitar inclusoes multiplas
+#define PATIENT_H 
 
 // Inclusao da biblioteca necessaria
 #include <time.h> 

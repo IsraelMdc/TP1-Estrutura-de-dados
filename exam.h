@@ -1,5 +1,7 @@
-#ifndef EXAM_H  // Verifica se EXAM_H nao esta definido
-#define EXAM_H  // Define EXAM_H para evitar inclusoes multiplas
+// Verifica se EXAM_H nao esta definido
+#ifndef EXAM_H  
+// Define EXAM_H para evitar inclusoes multiplas
+#define EXAM_H  
 
 // Inclusao da biblioteca necessaria
 #include <time.h>
