@@ -1,6 +1,6 @@
 # Projeto de Gerenciamento de Pacientes e Exames
 
-Este projeto consiste wm simular o processo de realização de exames de raio-X de tórax em um hospital, com ênfase na organização da fila para laudo médico. Por enquanto foram apenas implementados dois tipos abstratos de dados (TADs): Patient e
+Este projeto consiste em simular o processo de realização de exames de raio-X de tórax em um hospital, com ênfase na organização da fila para laudo médico. Por enquanto foram apenas implementados dois tipos abstratos de dados (TADs): Patient e
 Exam Esses TADs serão utilizados para modelar os pacientes que chegam ao hospital e os exames de raio-X.
 
 ## Estrutura do Projeto
