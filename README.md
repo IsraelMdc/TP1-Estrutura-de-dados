@@ -28,7 +28,7 @@ O projeto contem os seguintes arquivos:
 
 ## Principais TADs (Tipos Abstratos de Dados)
 
-### `Patient`
+### Patient
 
 A estrutura `Patient` representa um paciente e contém os seguintes campos:
 
@@ -43,7 +43,7 @@ A estrutura `Patient` representa um paciente e contém os seguintes campos:
 - **Destruir um paciente**: A função `destroy_patient` libera a memória alocada para um paciente.
 - **Obter informações do paciente**: As funções `get_patient_id`, `get_patient_name` e `get_patient_birthdate` permitem obter o ID, nome e data de nascimento do paciente, respectivamente.
   
-### `Exam`
+### Exam
 
 A estrutura `Exam` representa um exame e contém os seguintes campos:
 
