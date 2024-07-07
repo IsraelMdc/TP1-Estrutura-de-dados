@@ -1,6 +1,6 @@
 # Trabalho prático de Estrutura de Dados - Simulação de Realização de Exames de Raio-X (parte 1)
 
-Este trabalho prático consiste em simular o processo de realização de exames de raio-X de tórax em um hospital, com ênfase na organização da fila para laudo médico. Por enquanto foram apenas implementados dois tipos abstratos de dados (TADs): Patient e Exam Esses TADs serão utilizados para modelar os pacientes que chegam ao hospital e os exames de raio-X.
+Este trabalho prático consiste em simular o processo de realização de exames de raio-X de tórax em um hospital, com ênfase na organização da fila para laudo médico. Por enquanto foram apenas implementados dois tipos abstratos de dados (TADs): "Patient" e "Exam" Esses TADs serão utilizados para modelar os pacientes que chegam ao hospital e os exames de raio-X.
 
 ## Estrutura do Projeto
 
