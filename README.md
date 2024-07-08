@@ -28,7 +28,7 @@ O projeto contem os seguintes arquivos:
 
 ## Principais TADs (Tipos Abstratos de Dados)
 
-### `Patient`
+### Patient
 
 A estrutura `Patient` representa um paciente e contém os seguintes campos:
 
@@ -43,7 +43,7 @@ A estrutura `Patient` representa um paciente e contém os seguintes campos:
 - **Destruir um paciente**: A função `destroy_patient` libera a memória alocada para um paciente.
 - **Obter informações do paciente**: As funções `get_patient_id`, `get_patient_name` e `get_patient_birthdate` permitem obter o ID, nome e data de nascimento do paciente, respectivamente.
   
-### `Exam`
+### Exam
 
 A estrutura `Exam` representa um exame e contém os seguintes campos:
 
@@ -63,5 +63,9 @@ A estrutura `Exam` representa um exame e contém os seguintes campos:
 
 Para compilar e executar o projeto, siga os passos abaixo:
 
-1. Crie um arquivo "main.c" com os dados necessários para a criação de um paciente e um exame associado ao mesmo.
+1. Crie um arquivo "main.c" fazendo uso das funções necessárias para a criação de um paciente e um exame associado ao mesmo, além de liberar a memória do programa após sua utilização.
+  - **Criando Paciente**: Para criar um paciente, você precisa fornecer os dados necessários, como ID, nome, data de nascimento e data de chegada, e então usar a função `create_Patient` para criar a estrutura do paciente.
+  - **Criando Exame**: Para criar um exame, você precisa fornecer os dados necessários, como ID do exame, ID do paciente associado, ID do aparelho de raio-x associado e a data/hora do exame, e então usar a função `create_exam` para criar a estrutura do exame.
+  - **Liberando Memória**: Libere a memória alocada para um paciente ou exame após sua utilização, usando as funções `destroy_patient` e `destroy_exam`, respectivamente.
+    
 2. Execute o arquivo Makefile usando o comando "make" em linux ou "mingw32-make" em windows.
