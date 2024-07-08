@@ -1,8 +1,0 @@
-{
-    "files.associations": {
-        "stdio.h": "c",
-        "patient.h": "c",
-        "time.h": "c",
-        "stdlib.h": "c"
-    }
-}
